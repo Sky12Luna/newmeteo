@@ -1,0 +1,239 @@
+body{
+	background: url("../image/meteo.jpg") no-repeat center fixed;
+	background-size: cover;
+	
+}
+#bloc{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+#conteneur1{
+	order: 2;
+	padding-top: 80px;
+}
+#conteneur1 header h1{
+	color: #404040;
+	text-align: center;
+	font-size: 70px;
+}
+#conteneur1 header{
+	margin-top: 50px;
+	margin-bottom: 85px;
+}
+#conteneur1 header p{
+	text-align: center;
+	color: #404040;
+	font-size: 25px;
+}
+#conteneur2 nav ul{
+	display: flex;	
+	justify-content: space-around;
+	list-style-type: none;
+}
+#conteneur2 nav ul li{
+	font-size: 25px;
+}
+#conteneur2 nav a{
+	text-decoration: none;
+	color: #404040;
+	font-weight: bold;
+}
+#conteneur2 nav a:hover{
+	color: #1e624b;
+	border-bottom: 3px solid #404040;
+}
+#footer footer p{
+	background-color: white;
+	color: #404040;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+	#conteneur1{
+	padding-top: 0;
+	}
+	#conteneur2 nav ul li{
+		font-size: 18px;
+		margin-left: -53px;
+	}
+	#conteneur2 nav a{
+		text-decoration: none;
+		color: #404040;
+		font-weight: bold;
+	}
+	#conteneur2 nav a:hover{
+		color: #1e624b;
+		border-bottom: 3px solid #404040;
+	}
+}
+/*@media all and (min-width: 580px) and (max-width: 780px){
+	
+	#conteneur1{
+		padding-top: 0;
+	}
+	#conteneur2 nav ul li{
+		font-size: 13px;
+	}
+	#conteneur1 header h1{
+	font-size: 50px;
+	}
+	#conteneur1 header p{
+		font-size: 13px;
+	}
+}*/
+
+@media all and (min-width: 200px) and (max-width: 980px) and (orientation: portrait){
+
+	#conteneur1 header h1{
+		font-size: 30px;
+	}
+	#conteneur1 header p{
+		font-size: 10px;
+	}
+	#conteneur1{
+		order: 1;
+		padding-top: 0;
+		margin-top: -45px;
+	}
+	#conteneur2{
+		order: 2;
+	}
+	#conteneur2 nav ul{
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		list-style-type: none;
+		margin-top: -20px;
+	}
+	#conteneur2 nav ul li{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	#footer footer p{
+		font-size: 13px;
+		
+	}
+}
+
+/*@media all and (min-width: 200px) and (max-device-width: 600px) and (orientation: landscape){
+	#conteneur1 header h1{
+		font-size: 30px;
+	}
+	#conteneur1{
+		order: 1;
+		padding-top: 0;
+	}
+	#conteneur2{
+		order: 2;
+	}
+	
+	#conteneur2 nav{
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 15px;
+		margin-left: 175px;
+		margin-right: 175px;
+		padding-top: 37px;
+		margin-top: -55px;
+	}
+	#conteneur2 nav ul{
+		display: flex;	
+		flex-direction: column;
+		align-items: center;
+		list-style-type: none;
+		margin-top: -20px;
+	}
+	#conteneur2 nav ul li{
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+	#conteneur3 section p{
+		text-align: center;
+		color: #404040;
+		font-size: 15px;
+		margin-top: -200px;
+	}
+}*/
+@media all and (min-device-width: 600px) and (max-device-width: 980px) and (orientation: landscape){
+	
+	#conteneur1 header h1{
+		font-size: 30px;
+	}
+	#conteneur1 header p{
+	font-size: 10px;
+	}
+	#conteneur1{
+		order: 1;
+		padding-top: 0;
+		margin-top: -25px;
+	}
+	#conteneur2{
+		order: 2;
+	}
+	#conteneur2 nav{
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 15px;
+		margin-left: 175px;
+		margin-right: 175px;
+		padding-top: 5px;
+		margin-top: -55px;
+	}
+	#conteneur2 nav ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#conteneur2 nav ul li{
+		margin-bottom: 15px;
+	}
+	#footer footer p{
+		font-size: 13px;
+	}
+}
+
+@media all and (max-device-width: 599px) and (orientation: landscape){
+	
+	#conteneur1 header h1{
+		font-size: 25px;
+	}
+	#conteneur1 header p{
+	font-size: 10px;
+	}
+	#conteneur1{
+		order: 1;
+		padding-top: 0;
+		margin-top: -25px;
+	}
+	#conteneur2{
+		order: 2;
+	}
+	#conteneur2 nav{
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 15px;
+		margin-left: 120px;
+		margin-right: 120px;
+		padding-top: 5px;
+		margin-top: -55px;
+	}
+	#conteneur2 nav ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#conteneur2 nav ul li{
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+	#footer footer p{
+		font-size: 13px;
+	}
+}
+
+ 
+ 
