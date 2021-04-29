@@ -131,6 +131,15 @@ body{
 	#conteneur1 header h1{
 		font-size: 1.7rem;
 	}
+	#conteneur2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#conteneur2 nav ul li{
+		margin-bottom: 20px;
+	}
+	
 	#conteneur2 nav a{
 		font-size: 0.8rem;
 	}	
