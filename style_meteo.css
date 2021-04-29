@@ -67,9 +67,9 @@ body{
 } 
 @media screen and (max-width: 750px) and (orientation: portrait){
 
-	#bloc{
+	/*#bloc{
 		display: block;
-	}
+	}*/
 	#conteneur1{
 		margin-top: 0;
 	}
