@@ -1,5 +1,5 @@
 body{
-	background: url("meteo.jpg") no-repeat center fixed;
+	background: url("../image/meteo.jpg") no-repeat center fixed;
 	background-size: cover;
 }
 #bloc{
@@ -65,11 +65,8 @@ body{
 		font-size: 1rem;
 	}
 } 
-@media screen and (max-width: 750px) and (orientation: portrait){
+@media screen and (min-width: 551px) and (max-width: 750px) and (orientation: portrait){
 
-	/*#bloc{
-		display: block;
-	}*/
 	#conteneur1{
 		margin-top: 0;
 		order: 1;
@@ -126,11 +123,13 @@ body{
 }
 
 @media screen and (max-width: 550px) and (orientation: portrait){
+	
 	#conteneur1{
 		order: 1;
+		margin-top: 0;
 	}
 	#conteneur1 header h1{
-		font-size: 1.9rem;
+		font-size: 1.7rem;
 	}
 	#conteneur2 nav a{
 		font-size: 0.8rem;
