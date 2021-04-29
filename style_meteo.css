@@ -81,7 +81,7 @@ body{
 		background-color: rgba(255, 255, 255, 0.5);
 		border-radius: 15px;
 		margin-top: 30px;
-		padding-top: 5px;
+		padding-top: 18px;
 	}
 	#conteneur2 nav ul{
 		display: flex;
@@ -130,7 +130,7 @@ body{
 		order: 1;
 	}
 	#conteneur1 header h1{
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}
 	#conteneur2 nav a{
 		font-size: 0.8rem;
