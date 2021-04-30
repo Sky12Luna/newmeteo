@@ -16,14 +16,30 @@
 		</div>
 
 		<div id='conteneur2'>
-			<nav>
-				<ul>
-					<li><a href="releve/le_releve.html">RELEVES</a></li>
-					<li><a href="graphique/le_graphique.html">GRAPHIQUE DES DONNEES</a></li>
-					<li><a href="carte/la_carte.html">CARTE DES SONDES</a></li>
-					<li><a href="utilisateur/utilisateur.html">SE CONNECTER</a></li>
-				</ul>
-			</nav>
+			<div id="hamburger">
+				<div id="hamburger-content">
+					<div id="menu">
+						<nav>
+							<ul>
+								<li><a href="releve/le_releve.html">RELEVES</a></li>
+								<li><a href="graphique/le_graphique.html">GRAPHIQUE DES DONNEES</a></li>
+								<li><a href="carte/la_carte.html">CARTE DES SONDES</a></li>
+								<li><a href="utilisateur/utilisateur.html">SE CONNECTER</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<button id="hamburger-button">&#9776;</button>
+				
+				<div id="hamburger-sidebar">
+					<div id="hamburger-sidebar-header"><h1>Quid Est Tempestas* ?</h1></div>
+				
+					<div id="hamburger-sidebar-body"></div>
+				</div>
+
+				<div id="hamburger-overlay"></div> 
+			</div>			
 		</div>
 
 	</div>
@@ -33,5 +49,6 @@
 			<p><strong>By :</strong> Matthias Braneyre, Clément Rafaneau, Mélina Joum.</p>
 		</footer>
 	</div>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
